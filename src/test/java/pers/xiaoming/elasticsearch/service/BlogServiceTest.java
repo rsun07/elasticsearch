@@ -34,6 +34,6 @@ public class BlogServiceTest extends AbstractTestNGSpringContextTests {
         String title = blog.getTitle();
 
         Blog actual = blogService.getBlogByTitle(title);
-        Assert.assertTrue(blog.equals(actual));
+        Assert.assertEquals(actual, blog);
     }
 }

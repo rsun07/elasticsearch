@@ -128,7 +128,7 @@ public class ElasticSearchServiceTest extends AbstractTestNGSpringContextTests {
         String titlePrefix = DBInitForES.getTITLE_PREFIXES()[0];
         String author = DBInitForES.getAUTHORS()[0];
         List<Blog> blogs = service.searchByTitleContainsAndAuthor(titlePrefix, author);
-        log.info("Search by Title Contains and Author from ES : search title: {}, author: {}\nresult {}", titlePrefix, blogs);
+        log.info("Search by Title Contains and Author from ES : search title: {}, author: {}\nresult {}", titlePrefix, author, blogs);
         Assert.assertSame(getTitleAndAuthor(titlePrefix, author).size(), blogs.size());
     }
 
