@@ -13,7 +13,7 @@
         <java.source>1.8</java.source>
         <java.target>1.8</java.target>
 
-        <spring.boot.version>2.0.4.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
 
         <mysql.connector.version>5.1.46</mysql.connector.version>
         <testng.version>6.8</testng.version>
