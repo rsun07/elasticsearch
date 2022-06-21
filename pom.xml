@@ -15,7 +15,7 @@
 
         <spring.boot.version>2.0.4.RELEASE</spring.boot.version>
 
-        <mysql.connector.version>5.1.46</mysql.connector.version>
+        <mysql.connector.version>8.0.28</mysql.connector.version>
         <testng.version>6.8</testng.version>
 
         <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
